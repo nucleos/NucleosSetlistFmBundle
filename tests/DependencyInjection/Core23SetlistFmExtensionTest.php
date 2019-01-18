@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace Core23\SetlistFmBundle\Tests\DependencyInjection;
 
-use Core23\SetlistFm\DependencyInjection\Core23SetlistFmExtension;
+use Core23\SetlistFmBundle\DependencyInjection\Core23SetlistFmExtension;
 use Matthias\SymfonyDependencyInjectionTest\PhpUnit\AbstractExtensionTestCase;
 
 final class Core23SetlistFmExtensionTest extends AbstractExtensionTestCase
