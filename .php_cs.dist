@@ -1,0 +1,38 @@
+<?php
+
+$header = <<<EOF
+(c) Christian Gripp <mail@core23.de>
+
+For the full copyright and license information, please view the LICENSE
+file that was distributed with this source code.
+EOF;
+
+$rules = [
+];
+
+$finder = PhpCsFixer\Finder::create()
+    ->in([ __DIR__.'/src',  __DIR__.'/tests'])
+;
+
+$config = PhpCsFixer\Config::create()
+    ->setRiskyAllowed(true)
+    ->setRules([
+        '@Symfony' => true,
+        '@Symfony:risky' => true,
+        '@PHP70Migration' => true,
+        '@PHP71Migration:risky' => true,
+        '@PHPUnit60Migration:risky' => true,
+        'header_comment' => [
+            'header' => $header,
+        ],
+        'list_syntax' => [
+            'syntax' => 'short',
+        ],
+        'binary_operator_spaces' => [
+            'default' => 'align',
+        ],
+    ])
+    ->setFinder($finder)
+;
+
+return $config;
