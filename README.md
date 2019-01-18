@@ -35,8 +35,8 @@ Then, enable the bundle by adding it to the list of registered bundles in `bundl
 
 return [
     // ...
-    Http\HttplugBundle\HttplugBundle::class                             => ['all' => true],
-    Core23\SetlistFmBundle\Bundle\Core23SetlistFmBundle::class => ['all' => true],
+    Http\HttplugBundle\HttplugBundle::class             => ['all' => true],
+    Core23\SetlistFmBundle\Core23SetlistFmBundle::class => ['all' => true],
 ];
 ```
 
