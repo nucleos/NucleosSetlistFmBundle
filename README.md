@@ -13,7 +13,7 @@ SetlistFmBundle
 [![Code Climate](https://codeclimate.com/github/core23/SetlistFmBundle/badges/gpa.svg)](https://codeclimate.com/github/core23/SetlistFmBundle)
 [![Coverage Status](https://coveralls.io/repos/core23/SetlistFmBundle/badge.svg)](https://coveralls.io/r/core23/SetlistFmBundle)
 
-This library provides a wrapper for using the [Setlist.fm API] inside PHP and a bridge for symfony.
+This library provides a symfony bundle for [Setlist.fm PHP API](https://github.com/core23/setlistfm-php-api).
 
 ## Installation
 
