@@ -14,7 +14,7 @@ use Core23\SetlistFmBundle\DependencyInjection\Core23SetlistFmExtension;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;
 
-class Core23SetlistFmBundleTest extends TestCase
+final class Core23SetlistFmBundleTest extends TestCase
 {
     public function testItIsInstantiable(): void
     {
