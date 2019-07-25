@@ -41,20 +41,12 @@ final class Core23SetlistFmExtension extends Extension
         $this->configureHttpClient($container, $config);
     }
 
-    /**
-     * @param ContainerBuilder $container
-     * @param array            $config
-     */
     private function configureApi(ContainerBuilder $container, array $config): void
     {
         $container->setParameter('core23_setlistfm.api.key', $config['api']['key']);
         $container->setParameter('core23_setlistfm.api.endpoint', $config['api']['endpoint']);
     }
 
-    /**
-     * @param ContainerBuilder $container
-     * @param array            $config
-     */
     private function configureHttpClient(ContainerBuilder $container, array $config): void
     {
         $container->setAlias('core23_setlistfm.http.client', $config['http']['client']);
