@@ -12,17 +12,9 @@ namespace Core23\SetlistFmBundle\Tests;
 use Core23\SetlistFmBundle\Core23SetlistFmBundle;
 use Core23\SetlistFmBundle\DependencyInjection\Core23SetlistFmExtension;
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpKernel\Bundle\BundleInterface;
 
 final class Core23SetlistFmBundleTest extends TestCase
 {
-    public function testItIsInstantiable(): void
-    {
-        $bundle = new Core23SetlistFmBundle();
-
-        static::assertInstanceOf(BundleInterface::class, $bundle);
-    }
-
     public function testGetContainerExtension(): void
     {
         $bundle = new Core23SetlistFmBundle();
