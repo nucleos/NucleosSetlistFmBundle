@@ -33,8 +33,8 @@ final class ConfigurationTest extends TestCase
                 'endpoint' => 'https://api.setlist.fm/rest/1.0/',
             ],
             'http' => [
-                'client'          => 'httplug.client.default',
-                'message_factory' => 'httplug.message_factory.default',
+                'client'          => null,
+                'message_factory' => null,
             ],
         ];
 

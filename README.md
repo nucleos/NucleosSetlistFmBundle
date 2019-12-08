@@ -21,9 +21,8 @@ Open a command console, enter your project directory and execute the following c
 
 ```
 composer require core23/setlistfm-bundle
-
-composer require guzzlehttp/guzzle # if you want to use Guzzle native
-composer require php-http/guzzle6-adapter # if you want to use HTTPlug with Guzzle
+# To define a default http client and message factory
+composer require symfony/http-client nyholm/psr7
 ```
 
 ## Enable the Bundle
@@ -35,7 +34,6 @@ Then, enable the bundle by adding it to the list of registered bundles in `confi
 
 return [
     // ...
-    Http\HttplugBundle\HttplugBundle::class             => ['all' => true],
     Core23\SetlistFmBundle\Core23SetlistFmBundle::class => ['all' => true],
 ];
 ```
@@ -50,43 +48,15 @@ Create a configuration file called `core23_setlistfm.yaml`:
 core23_setlistfm:
     api:
         key:    "%setlistfm_api.key%"
+
+    http:
+        client: 'httplug.client'
+        message_factory: 'nyholm.psr7.psr17_factory'
 ```
 
-Define a [HTTPlug] client in your configuration.
-
-```yaml
-# config/packages/httplug.yaml
-
-httplug:
-    classes:
-        client: Http\Adapter\Guzzle6\Client
-        message_factory: Http\Message\MessageFactory\GuzzleMessageFactory
-        uri_factory: Http\Message\UriFactory\GuzzleUriFactory
-        stream_factory: Http\Message\StreamFactory\GuzzleStreamFactory
-```
-
-### API cache
-
-It is recommended to use a cache to reduce the API usage.
-
-```yaml
-# config/packages/httplug.yaml
-
-httplug:
-    plugins:
-        cache:
-            cache_pool: 'acme.httplug_cache'
-            config:
-                default_ttl: 7200 # Two hours
-    clients:
-        default:
-            plugins:
-                - httplug.plugin.cache
-```
 
 ## License
 
 This library is under the [MIT license](LICENSE.md).
 
-[HTTPlug]: http://docs.php-http.org/en/latest/index.html
 [Setlist.fm API]: https://api.setlist.fm
