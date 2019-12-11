@@ -14,17 +14,12 @@ namespace Core23\SetlistFmBundle\Tests;
 use Core23\SetlistFmBundle\Tests\App\AppKernel;
 use PHPUnit\Framework\TestCase;
 use Symfony\Bundle\FrameworkBundle\KernelBrowser;
-use Symfony\Component\HttpKernel\Client;
 
 final class BundleIntegrationTest extends TestCase
 {
     public function testStartup(): void
     {
-        if (class_exists(KernelBrowser::class)) {
-            $client = new KernelBrowser(new AppKernel());
-        } else {
-            $client = new Client(new AppKernel());
-        }
+        $client = new KernelBrowser(new AppKernel());
 
         $client->request('GET', '/test');
 
