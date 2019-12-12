@@ -5,9 +5,9 @@
   "keywords": [
     "symfony",
     "bundle",
+    "setlist",
     "setlist.fm",
     "api",
-    "bridge",
     "webservice client"
   ],
   "homepage": "https://core23.de",
