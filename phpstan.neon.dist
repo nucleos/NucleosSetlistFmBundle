@@ -1,3 +1,6 @@
+includes:
+    - phpstan-baseline.neon
+
 parameters:
     level: max
 
@@ -8,6 +11,5 @@ parameters:
     autoload_files:
         - vendor-bin/test/vendor/autoload.php
 
-    ignoreErrors:
-        # Symfony DI
-        - '#Cannot call method scalarNode\(\) on Symfony\\Component\\Config\\Definition\\Builder\\NodeParentInterface\|null.#'
+    excludes_analyse:
+        - tests/bootstrap.php
