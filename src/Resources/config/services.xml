@@ -7,7 +7,7 @@
     <service alias="core23_setlistfm.service.user" id="Core23\SetlistFm\Service\UserService" public="true"/>
     <service alias="core23_setlistfm.service.setlist" id="Core23\SetlistFm\Service\SetlistService" public="true"/>
     <service alias="core23_setlistfm.service.venue" id="Core23\SetlistFm\Service\VenueService" public="true"/>
-    <service id="core23_setlistfm.connection" class="Core23\SetlistFm\Connection\PsrHttpClient">
+    <service id="core23_setlistfm.connection" class="Core23\SetlistFm\Connection\PsrClientConnection">
       <argument type="service" id="core23_setlistfm.http.client"/>
       <argument type="service" id="core23_setlistfm.http.message_factory"/>
       <argument>%core23_setlistfm.api.key%</argument>

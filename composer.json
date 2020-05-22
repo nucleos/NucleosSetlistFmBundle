@@ -21,7 +21,7 @@
     "require": {
         "php": "^7.2",
         "ext-json": "*",
-        "core23/setlistfm-api": "^1.0",
+        "core23/setlistfm-api": "^2.0",
         "psr/http-client": "^1.0",
         "psr/http-message": "^1.0",
         "psr/log": "^1.0",
