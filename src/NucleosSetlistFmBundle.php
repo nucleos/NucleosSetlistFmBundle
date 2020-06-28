@@ -9,17 +9,17 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Core23\SetlistFmBundle;
+namespace Nucleos\SetlistFmBundle;
 
-use Core23\SetlistFmBundle\DependencyInjection\Core23SetlistFmExtension;
+use Nucleos\SetlistFmBundle\DependencyInjection\NucleosSetlistFmExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-final class Core23SetlistFmBundle extends Bundle
+final class NucleosSetlistFmBundle extends Bundle
 {
     public function getContainerExtension()
     {
         if (null === $this->extension) {
-            $this->extension = new Core23SetlistFmExtension();
+            $this->extension = new NucleosSetlistFmExtension();
         }
 
         return $this->extension;

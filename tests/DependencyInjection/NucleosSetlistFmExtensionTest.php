@@ -9,12 +9,12 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Core23\SetlistFmBundle\Tests\DependencyInjection;
+namespace Nucleos\SetlistFmBundle\Tests\DependencyInjection;
 
-use Core23\SetlistFmBundle\DependencyInjection\Core23SetlistFmExtension;
 use Matthias\SymfonyDependencyInjectionTest\PhpUnit\AbstractExtensionTestCase;
+use Nucleos\SetlistFmBundle\DependencyInjection\NucleosSetlistFmExtension;
 
-final class Core23SetlistFmExtensionTest extends AbstractExtensionTestCase
+final class NucleosSetlistFmExtensionTest extends AbstractExtensionTestCase
 {
     public function testLoadDefault(): void
     {
@@ -28,17 +28,17 @@ final class Core23SetlistFmExtensionTest extends AbstractExtensionTestCase
             ],
         ]);
 
-        $this->assertContainerBuilderHasParameter('core23_setlistfm.api.endpoint', 'https://api.setlist.fm/rest/1.0/');
-        $this->assertContainerBuilderHasParameter('core23_setlistfm.api.key', '0815');
+        $this->assertContainerBuilderHasParameter('nucleos_setlistfm.api.endpoint', 'https://api.setlist.fm/rest/1.0/');
+        $this->assertContainerBuilderHasParameter('nucleos_setlistfm.api.key', '0815');
 
-        $this->assertContainerBuilderHasAlias('core23_setlistfm.http.client', 'acme.client');
-        $this->assertContainerBuilderHasAlias('core23_setlistfm.http.message_factory', 'acme.message_factory');
+        $this->assertContainerBuilderHasAlias('nucleos_setlistfm.http.client', 'acme.client');
+        $this->assertContainerBuilderHasAlias('nucleos_setlistfm.http.message_factory', 'acme.message_factory');
     }
 
     protected function getContainerExtensions(): array
     {
         return [
-            new Core23SetlistFmExtension(),
+            new NucleosSetlistFmExtension(),
         ];
     }
 }

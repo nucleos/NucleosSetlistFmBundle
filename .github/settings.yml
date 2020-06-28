@@ -3,9 +3,9 @@
 _extends: .github
 
 repository:
-  name: SetlistFmBundle
-  description: This bundle provides services for using the setlist.fm API inside the symfony.
-  homepage: https://core23.de
+  name: NucleosSetlistFmBundle
+  description: 🔌 This bundle provides services for using the setlist.fm API inside the symfony.
+  homepage: https://nucleos.rocks
   topics: symfony, symfony-bundle, bundle, php, setlistfm, setlist, api, webservice-client
 
 branches:

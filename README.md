@@ -1,24 +1,24 @@
-SetlistFmBundle
-===============
-[![Latest Stable Version](https://poser.pugx.org/core23/setlistfm-bundle/v/stable)](https://packagist.org/packages/core23/setlistfm-bundle)
-[![Latest Unstable Version](https://poser.pugx.org/core23/setlistfm-bundle/v/unstable)](https://packagist.org/packages/core23/setlistfm-bundle)
-[![License](https://poser.pugx.org/core23/setlistfm-bundle/license)](https://packagist.org/packages/core23/setlistfm-bundle)
+NucleosSetlistFmBundle
+======================
+[![Latest Stable Version](https://poser.pugx.org/nucleos/setlistfm-bundle/v/stable)](https://packagist.org/packages/nucleos/setlistfm-bundle)
+[![Latest Unstable Version](https://poser.pugx.org/nucleos/setlistfm-bundle/v/unstable)](https://packagist.org/packages/nucleos/setlistfm-bundle)
+[![License](https://poser.pugx.org/nucleos/setlistfm-bundle/license)](https://packagist.org/packages/nucleos/setlistfm-bundle)
 
-[![Total Downloads](https://poser.pugx.org/core23/setlistfm-bundle/downloads)](https://packagist.org/packages/core23/setlistfm-bundle)
-[![Monthly Downloads](https://poser.pugx.org/core23/setlistfm-bundle/d/monthly)](https://packagist.org/packages/core23/setlistfm-bundle)
-[![Daily Downloads](https://poser.pugx.org/core23/setlistfm-bundle/d/daily)](https://packagist.org/packages/core23/setlistfm-bundle)
+[![Total Downloads](https://poser.pugx.org/nucleos/setlistfm-bundle/downloads)](https://packagist.org/packages/nucleos/setlistfm-bundle)
+[![Monthly Downloads](https://poser.pugx.org/nucleos/setlistfm-bundle/d/monthly)](https://packagist.org/packages/nucleos/setlistfm-bundle)
+[![Daily Downloads](https://poser.pugx.org/nucleos/setlistfm-bundle/d/daily)](https://packagist.org/packages/nucleos/setlistfm-bundle)
 
-[![Continuous Integration](https://github.com/core23/SetlistFmBundle/workflows/Continuous%20Integration/badge.svg)](https://github.com/core23/SetlistFmBundle/actions)
-[![Code Coverage](https://codecov.io/gh/core23/SetlistFmBundle/branch/master/graph/badge.svg)](https://codecov.io/gh/core23/SetlistFmBundle)
+[![Continuous Integration](https://github.com/nucleos/NucleosSetlistFmBundle/workflows/Continuous%20Integration/badge.svg)](https://github.com/nucleos/NucleosSetlistFmBundle/actions)
+[![Code Coverage](https://codecov.io/gh/nucleos/NucleosSetlistFmBundle/branch/master/graph/badge.svg)](https://codecov.io/gh/nucleos/NucleosSetlistFmBundle)
 
-This library provides a symfony bundle for [Setlist.fm PHP API](https://github.com/core23/setlistfm-php-api).
+This library provides a symfony bundle for [Setlist.fm PHP API](https://github.com/nucleos/setlistfm-php-api).
 
 ## Installation
 
 Open a command console, enter your project directory and execute the following command to download the latest stable version of this library:
 
 ```
-composer require core23/setlistfm-bundle
+composer require nucleos/setlistfm-bundle
 # To define a default http client and message factory
 composer require symfony/http-client nyholm/psr7
 ```
@@ -32,18 +32,18 @@ Then, enable the bundle by adding it to the list of registered bundles in `confi
 
 return [
     // ...
-    Core23\SetlistFmBundle\Core23SetlistFmBundle::class => ['all' => true],
+    Nucleos\SetlistFmBundle\NucleosSetlistFmBundle::class => ['all' => true],
 ];
 ```
 
 ## Configure the Bundle
 
-Create a configuration file called `core23_setlistfm.yaml`:
+Create a configuration file called `nucleos_setlistfm.yaml`:
 
 ```yaml
-# config/packages/core23_setlistfm.yaml
+# config/packages/nucleos_setlistfm.yaml
 
-core23_setlistfm:
+nucleos_setlistfm:
     api:
         key:    "%setlistfm_api.key%"
 

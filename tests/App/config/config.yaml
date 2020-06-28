@@ -7,7 +7,7 @@ framework:
         cookie_secure: auto
         cookie_samesite: lax
 
-core23_setlistfm:
+nucleos_setlistfm:
     api:
         key: 'MY_API_KEY'
     http:
@@ -19,7 +19,7 @@ services:
         autowire: true
         autoconfigure: true
 
-    Core23\SetlistFmBundle\Tests\App\Controller\TestController:
+    Nucleos\SetlistFmBundle\Tests\App\Controller\TestController:
         tags:
             - controller.service_arguments
 
