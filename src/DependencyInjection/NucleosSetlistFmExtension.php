@@ -9,18 +9,18 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Core23\SetlistFmBundle\DependencyInjection;
+namespace Nucleos\SetlistFmBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
-final class Core23SetlistFmExtension extends Extension
+final class NucleosSetlistFmExtension extends Extension
 {
     public function getAlias()
     {
-        return 'core23_setlistfm';
+        return 'nucleos_setlistfm';
     }
 
     /**
@@ -43,8 +43,8 @@ final class Core23SetlistFmExtension extends Extension
      */
     private function configureApi(ContainerBuilder $container, array $config): void
     {
-        $container->setParameter('core23_setlistfm.api.key', $config['api']['key']);
-        $container->setParameter('core23_setlistfm.api.endpoint', $config['api']['endpoint']);
+        $container->setParameter('nucleos_setlistfm.api.key', $config['api']['key']);
+        $container->setParameter('nucleos_setlistfm.api.endpoint', $config['api']['endpoint']);
     }
 
     /**
@@ -52,7 +52,7 @@ final class Core23SetlistFmExtension extends Extension
      */
     private function configureHttpClient(ContainerBuilder $container, array $config): void
     {
-        $container->setAlias('core23_setlistfm.http.client', $config['http']['client']);
-        $container->setAlias('core23_setlistfm.http.message_factory', $config['http']['message_factory']);
+        $container->setAlias('nucleos_setlistfm.http.client', $config['http']['client']);
+        $container->setAlias('nucleos_setlistfm.http.message_factory', $config['http']['message_factory']);
     }
 }

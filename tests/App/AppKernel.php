@@ -9,10 +9,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Core23\SetlistFmBundle\Tests\App;
+namespace Nucleos\SetlistFmBundle\Tests\App;
 
-use Core23\SetlistFmBundle\Core23SetlistFmBundle;
-use Core23\SetlistFmBundle\Tests\App\Controller\TestController;
+use Nucleos\SetlistFmBundle\NucleosSetlistFmBundle;
+use Nucleos\SetlistFmBundle\Tests\App\Controller\TestController;
 use Symfony\Bundle\FrameworkBundle\FrameworkBundle;
 use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;
 use Symfony\Component\Config\Loader\LoaderInterface;
@@ -32,7 +32,7 @@ final class AppKernel extends Kernel
     public function registerBundles()
     {
         yield new FrameworkBundle();
-        yield new Core23SetlistFmBundle();
+        yield new NucleosSetlistFmBundle();
     }
 
     public function getCacheDir(): string

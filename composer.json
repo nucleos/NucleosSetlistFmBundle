@@ -1,5 +1,5 @@
 {
-    "name": "core23/setlistfm-bundle",
+    "name": "nucleos/setlistfm-bundle",
     "type": "symfony-bundle",
     "description": "This bundle provides services for using the setlist.fm API inside the symfony.",
     "keywords": [
@@ -10,7 +10,7 @@
         "api",
         "webservice client"
     ],
-    "homepage": "https://core23.de",
+    "homepage": "https://nucleos.rocks",
     "license": "MIT",
     "authors": [
         {
@@ -21,7 +21,7 @@
     "require": {
         "php": "^7.2",
         "ext-json": "*",
-        "core23/setlistfm-api": "^2.0",
+        "nucleos/setlistfm": "^3.0",
         "psr/http-client": "^1.0",
         "psr/http-message": "^1.0",
         "psr/log": "^1.0",
@@ -48,17 +48,17 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.x-dev"
+            "dev-master": "1.x-dev"
         }
     },
     "autoload": {
         "psr-4": {
-            "Core23\\SetlistFmBundle\\": "src/"
+            "Nucleos\\SetlistFmBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Core23\\SetlistFmBundle\\Tests\\": "tests/"
+            "Nucleos\\SetlistFmBundle\\Tests\\": "tests/"
         }
     },
     "scripts": {
