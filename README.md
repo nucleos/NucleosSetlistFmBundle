@@ -10,6 +10,7 @@ NucleosSetlistFmBundle
 
 [![Continuous Integration](https://github.com/nucleos/NucleosSetlistFmBundle/workflows/Continuous%20Integration/badge.svg)](https://github.com/nucleos/NucleosSetlistFmBundle/actions)
 [![Code Coverage](https://codecov.io/gh/nucleos/NucleosSetlistFmBundle/branch/main/graph/badge.svg)](https://codecov.io/gh/nucleos/NucleosSetlistFmBundle)
+[![Type Coverage](https://shepherd.dev/github/nucleos/NucleosSetlistFmBundle/coverage.svg)](https://shepherd.dev/github/nucleos/NucleosSetlistFmBundle)
 
 This library provides a symfony bundle for [Setlist.fm PHP API](https://github.com/nucleos/setlistfm-php-api).
 
