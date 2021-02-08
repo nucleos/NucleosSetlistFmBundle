@@ -8,7 +8,7 @@ NucleosSetlistFmBundle
 [![Monthly Downloads](https://poser.pugx.org/nucleos/setlistfm-bundle/d/monthly)](https://packagist.org/packages/nucleos/setlistfm-bundle)
 [![Daily Downloads](https://poser.pugx.org/nucleos/setlistfm-bundle/d/daily)](https://packagist.org/packages/nucleos/setlistfm-bundle)
 
-[![Continuous Integration](https://github.com/nucleos/NucleosSetlistFmBundle/workflows/Continuous%20Integration/badge.svg)](https://github.com/nucleos/NucleosSetlistFmBundle/actions?query=workflow%3A"Continuous+Integration")
+[![Continuous Integration](https://github.com/nucleos/NucleosSetlistFmBundle/workflows/Continuous%20Integration/badge.svg?event=push)](https://github.com/nucleos/NucleosSetlistFmBundle/actions?query=workflow%3A"Continuous+Integration"+event%3Apush)
 [![Code Coverage](https://codecov.io/gh/nucleos/NucleosSetlistFmBundle/graph/badge.svg)](https://codecov.io/gh/nucleos/NucleosSetlistFmBundle)
 [![Type Coverage](https://shepherd.dev/github/nucleos/NucleosSetlistFmBundle/coverage.svg)](https://shepherd.dev/github/nucleos/NucleosSetlistFmBundle)
 
