@@ -842,16 +842,16 @@
         },
         {
             "name": "maglnet/composer-require-checker",
-            "version": "3.6.0",
+            "version": "3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maglnet/ComposerRequireChecker.git",
-                "reference": "e73c0bb75522d861aef3e8d58991d50bf0125a0b"
+                "reference": "537138b833ab0f9ad72b667a72bece2a765e88ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maglnet/ComposerRequireChecker/zipball/e73c0bb75522d861aef3e8d58991d50bf0125a0b",
-                "reference": "e73c0bb75522d861aef3e8d58991d50bf0125a0b",
+                "url": "https://api.github.com/repos/maglnet/ComposerRequireChecker/zipball/537138b833ab0f9ad72b667a72bece2a765e88ab",
+                "reference": "537138b833ab0f9ad72b667a72bece2a765e88ab",
                 "shasum": ""
             },
             "require": {
@@ -871,7 +871,7 @@
                 "phing/phing": "^2.17.0",
                 "phpstan/phpstan": "^1.2.0",
                 "phpunit/phpunit": "^9.5.10",
-                "vimeo/psalm": "^4.13.1"
+                "vimeo/psalm": "^4.14.0"
             },
             "bin": [
                 "bin/composer-require-checker"
@@ -916,9 +916,9 @@
             ],
             "support": {
                 "issues": "https://github.com/maglnet/ComposerRequireChecker/issues",
-                "source": "https://github.com/maglnet/ComposerRequireChecker/tree/3.6.0"
+                "source": "https://github.com/maglnet/ComposerRequireChecker/tree/3.8.0"
             },
-            "time": "2021-12-03T08:44:02+00:00"
+            "time": "2021-12-07T14:25:47+00:00"
         },
         {
             "name": "matthiasnoback/symfony-config-test",
@@ -2075,16 +2075,16 @@
         },
         {
             "name": "phpstan/phpstan-symfony",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-symfony.git",
-                "reference": "be2425774b6e23a9b9dae5304941f33c113bef18"
+                "reference": "a5aed927c36088284267c6170b41fcb556e32a44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-symfony/zipball/be2425774b6e23a9b9dae5304941f33c113bef18",
-                "reference": "be2425774b6e23a9b9dae5304941f33c113bef18",
+                "url": "https://api.github.com/repos/phpstan/phpstan-symfony/zipball/a5aed927c36088284267c6170b41fcb556e32a44",
+                "reference": "a5aed927c36088284267c6170b41fcb556e32a44",
                 "shasum": ""
             },
             "require": {
@@ -2139,22 +2139,22 @@
             "description": "Symfony Framework extensions and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan-symfony/issues",
-                "source": "https://github.com/phpstan/phpstan-symfony/tree/1.0.2"
+                "source": "https://github.com/phpstan/phpstan-symfony/tree/1.0.3"
             },
-            "time": "2021-11-29T12:41:15+00:00"
+            "time": "2021-12-05T18:14:35+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.9",
+            "version": "9.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "f301eb1453c9e7a1bc912ee8b0ea9db22c60223b"
+                "reference": "d5850aaf931743067f4bfc1ae4cbd06468400687"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/f301eb1453c9e7a1bc912ee8b0ea9db22c60223b",
-                "reference": "f301eb1453c9e7a1bc912ee8b0ea9db22c60223b",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/d5850aaf931743067f4bfc1ae4cbd06468400687",
+                "reference": "d5850aaf931743067f4bfc1ae4cbd06468400687",
                 "shasum": ""
             },
             "require": {
@@ -2210,7 +2210,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.9"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.10"
             },
             "funding": [
                 {
@@ -2218,7 +2218,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-19T15:21:02+00:00"
+            "time": "2021-12-05T09:12:13+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -6506,16 +6506,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "4.13.1",
+            "version": "v4.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "5cf660f63b548ccd4a56f62d916ee4d6028e01a3"
+                "reference": "14dcbc908ab2625cd7a74258ee6c740cbecc6140"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/5cf660f63b548ccd4a56f62d916ee4d6028e01a3",
-                "reference": "5cf660f63b548ccd4a56f62d916ee4d6028e01a3",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/14dcbc908ab2625cd7a74258ee6c740cbecc6140",
+                "reference": "14dcbc908ab2625cd7a74258ee6c740cbecc6140",
                 "shasum": ""
             },
             "require": {
@@ -6606,9 +6606,9 @@
             ],
             "support": {
                 "issues": "https://github.com/vimeo/psalm/issues",
-                "source": "https://github.com/vimeo/psalm/tree/4.13.1"
+                "source": "https://github.com/vimeo/psalm/tree/v4.14.0"
             },
-            "time": "2021-11-23T23:52:49+00:00"
+            "time": "2021-12-04T17:49:24+00:00"
         },
         {
             "name": "webmozart/assert",

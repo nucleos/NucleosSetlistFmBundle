@@ -12,11 +12,12 @@ declare(strict_types=1);
 namespace Nucleos\SetlistFmBundle;
 
 use Nucleos\SetlistFmBundle\DependencyInjection\NucleosSetlistFmExtension;
+use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 final class NucleosSetlistFmBundle extends Bundle
 {
-    public function getContainerExtension()
+    public function getContainerExtension(): ?ExtensionInterface
     {
         if (null === $this->extension) {
             $this->extension = new NucleosSetlistFmExtension();
