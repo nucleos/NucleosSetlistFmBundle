@@ -1,6 +1,6 @@
 {
     "name": "nucleos/setlistfm-bundle",
-    "description": "This bundle provides services for using the setlist.fm API inside the symfony.",
+    "description": "This bundle provides services for using the setlist.fm API with symfony.",
     "license": "MIT",
     "type": "symfony-bundle",
     "keywords": [
