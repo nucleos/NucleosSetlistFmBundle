@@ -77,6 +77,5 @@ return static function (ContainerConfigurator $container): void {
 
         ->alias(VenueService::class, 'nucleos_setlistfm.service.venue')
             ->public()
-
-        ;
+    ;
 };
