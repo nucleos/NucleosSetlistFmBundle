@@ -19,7 +19,7 @@ final class NucleosSetlistFmExtensionTest extends AbstractExtensionTestCase
     public function testLoadDefault(): void
     {
         $this->load([
-            'api' => [
+            'api'  => [
                 'key' => '0815',
             ],
             'http' => [

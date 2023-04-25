@@ -28,7 +28,7 @@ final class ConfigurationTest extends TestCase
         ]]);
 
         $expected = [
-            'api' => [
+            'api'  => [
                 'key'      => '0815',
                 'endpoint' => 'https://api.setlist.fm/rest/1.0/',
             ],
