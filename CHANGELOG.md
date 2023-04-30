@@ -2,27 +2,30 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
-## 1.1.0 - TBD
+## 1.1.0 - 2023-04-30
 
-### Added
 
-- Nothing.
+-----
 
-### Changed
+### Release Notes for [1.1.0](https://github.com/nucleos/NucleosSetlistFmBundle/milestone/3)
 
-- Nothing.
+Feature release (minor)
 
-### Deprecated
+### 1.1.0
 
-- Nothing.
+- Total issues resolved: **0**
+- Total pull requests resolved: **4**
+- Total contributors: **1**
 
-### Removed
+#### dependency
 
-- Nothing.
+ - [474: Drop symfony 6.1 support](https://github.com/nucleos/NucleosSetlistFmBundle/pull/474) thanks to @core23
+ - [473: Drop support for PHP 8.0](https://github.com/nucleos/NucleosSetlistFmBundle/pull/473) thanks to @core23
 
-### Fixed
+#### Enhancement
 
-- Nothing.
+ - [370: Use shared pipelines](https://github.com/nucleos/NucleosSetlistFmBundle/pull/370) thanks to @core23
+ - [358: Remove composer-bin plugin](https://github.com/nucleos/NucleosSetlistFmBundle/pull/358) thanks to @core23
 
 ## 1.0.0 - 2021-12-07
 
