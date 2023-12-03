@@ -21,6 +21,6 @@ final class NucleosSetlistFmBundleTest extends TestCase
     {
         $bundle = new NucleosSetlistFmBundle();
 
-        static::assertInstanceOf(NucleosSetlistFmExtension::class, $bundle->getContainerExtension());
+        self::assertInstanceOf(NucleosSetlistFmExtension::class, $bundle->getContainerExtension());
     }
 }
