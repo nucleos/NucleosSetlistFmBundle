@@ -2,27 +2,30 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
-## 1.2.0 - TBD
+## 1.2.0 - 2023-12-21
 
-### Added
 
-- Nothing.
+-----
 
-### Changed
+### Release Notes for [1.2.0](https://github.com/nucleos/NucleosSetlistFmBundle/milestone/6)
 
-- Nothing.
+Feature release (minor)
 
-### Deprecated
+### 1.2.0
 
-- Nothing.
+- Total issues resolved: **0**
+- Total pull requests resolved: **4**
+- Total contributors: **2**
 
-### Removed
+#### dependency
 
-- Nothing.
+ - [478: Bump to symfony ^6.4 || ^7.0](https://github.com/nucleos/NucleosSetlistFmBundle/pull/478) thanks to @core23
+ - [476: Update dependency symfony/phpunit-bridge to v7](https://github.com/nucleos/NucleosSetlistFmBundle/pull/476) thanks to @renovate[bot]
+ - [475: Update dependency matthiasnoback/symfony-dependency-injection-test to v5](https://github.com/nucleos/NucleosSetlistFmBundle/pull/475) thanks to @renovate[bot]
 
-### Fixed
+#### Enhancement
 
-- Nothing.
+ - [477: Update tools ](https://github.com/nucleos/NucleosSetlistFmBundle/pull/477) thanks to @core23
 
 ## 1.1.0 - 2023-04-30
 
