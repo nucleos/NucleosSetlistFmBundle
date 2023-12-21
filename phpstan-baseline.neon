@@ -1,6 +1,11 @@
 parameters:
 	ignoreErrors:
 		-
+			message: "#^Method Nucleos\\\\SetlistFmBundle\\\\NucleosSetlistFmBundle\\:\\:getContainerExtension\\(\\) should return Symfony\\\\Component\\\\DependencyInjection\\\\Extension\\\\ExtensionInterface\\|null but returns Symfony\\\\Component\\\\DependencyInjection\\\\Extension\\\\ExtensionInterface\\|false\\.$#"
+			count: 1
+			path: src/NucleosSetlistFmBundle.php
+
+		-
 			message: "#^Method Nucleos\\\\SetlistFmBundle\\\\Tests\\\\App\\\\AppKernel\\:\\:configureContainer\\(\\) has parameter \\$container with no type specified\\.$#"
 			count: 1
 			path: tests/App/AppKernel.php
