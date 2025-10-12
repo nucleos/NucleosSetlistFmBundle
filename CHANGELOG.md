@@ -2,27 +2,34 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
-## 1.4.0 - TBD
+## 1.4.0 - 2025-10-12
 
-### Added
 
-- Nothing.
+-----
 
-### Changed
+### Release Notes for [1.4.0](https://github.com/nucleos/NucleosSetlistFmBundle/milestone/10)
 
-- Nothing.
+Feature release (minor)
 
-### Deprecated
+### 1.4.0
 
-- Nothing.
+- Total issues resolved: **0**
+- Total pull requests resolved: **8**
+- Total contributors: **2**
 
-### Removed
+#### dependency
 
-- Nothing.
+ - [493: Update to phpunit v12](https://github.com/nucleos/NucleosSetlistFmBundle/pull/493) thanks to @core23
+ - [492: Drop support for PHP 8.2](https://github.com/nucleos/NucleosSetlistFmBundle/pull/492) thanks to @core23
+ - [491: Update dependency matthiasnoback/symfony-dependency-injection-test to v6](https://github.com/nucleos/NucleosSetlistFmBundle/pull/491) thanks to @renovate[bot]
+ - [484: Update PHPStan packages to v2 (major)](https://github.com/nucleos/NucleosSetlistFmBundle/pull/484) thanks to @renovate[bot]
 
-### Fixed
+#### Enhancement
 
-- Nothing.
+ - [490: Remove ci pipeline overrides ](https://github.com/nucleos/NucleosSetlistFmBundle/pull/490) thanks to @core23
+ - [489: Sync tool config ](https://github.com/nucleos/NucleosSetlistFmBundle/pull/489) thanks to @core23
+ - [488: Remove infection testing ](https://github.com/nucleos/NucleosSetlistFmBundle/pull/488) thanks to @core23
+ - [486: Remove psalm in favor of phpstan ](https://github.com/nucleos/NucleosSetlistFmBundle/pull/486) thanks to @core23
 
 ## 1.3.0 - 2024-08-14
 
